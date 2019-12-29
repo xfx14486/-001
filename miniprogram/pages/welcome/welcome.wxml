@@ -1,0 +1,9 @@
+<!--miniprogram/pages/welcome/welcome.wxml-->
+<view class="container">
+    <text class="user-name">中国石油大学(华东)</text>
+    <image class="user-avater" src="/images/avatar/2.png"></image>
+    <view class="moto-container" bindtap="ontap">
+      <text class="moto-name" bindtap="ontap">开启校园助手之旅</text>
+    </view>
+    
+</view>

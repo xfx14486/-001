@@ -1,0 +1,48 @@
+<!--pages/post/post.wxml-->
+<!-- <text>pages/post/post.wxml</text> -->
+<import src="post-template/post-template.wxml" />
+<import src="second-goods-list/second-goods-list.wxml" />
+<import src="helps-list/helps-list.wxml" />
+
+<view class="search">
+  <icon type="search" class="search-img" size="13" color="#405f80"></icon>
+  <input type="text" placeholder="电脑，手机" placeholder-class="placeholder" bindfocus="onBindFocus" bindblur="onBindBlur" />
+  <image wx:if="{{searchPanelShow}}" src="/images/icon/xx.png" class="xx-img" bindtap="onCancelImgTap"></image>
+</view>
+
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="3000">
+    <swiper-item>
+      <image class="img" src="/images/photo/27939b81a3f87fa1a391801f1e99c97d.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="img" src="/images/photo/580b585b2edbce24c47b2d6d.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="img" src="/images/photo/tourist-under-rocky-arch-at-night.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+
+  <view class="mazi-template">
+    <template is="secondGoodsList"></template>
+  </view>
+
+  <view class="mazi-template">
+    <template is="helps-list"></template>
+  </view>
+
+
+
+
+<!-- <block wx:for="{{postList}}" wx:for-item="item" wx:for-index="idx">
+  <view class="category-contail" bindtap="ontap">
+    <template is="postItem" data="{{...item}}" />
+  </view>
+</block> -->
+
+
+<!-- <view class="second-good">
+  <template is="secondGood"/>
+</view> -->

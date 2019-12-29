@@ -1,0 +1,5 @@
+<!--miniprogram/pages/detail/detail.wxml-->
+<text>miniprogram/pages/detail/detail.wxml</text>
+<view>
+  <text>welcome to detail</text>
+</view>

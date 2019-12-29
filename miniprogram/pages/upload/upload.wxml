@@ -1,0 +1,12 @@
+<view class="upload-container">
+
+    <view class="upload-text">
+     <text class="upload-content">上传闲置物品</text>
+    </view>
+   
+
+   <view class="upload-text">
+     <text class="upload-content">上传请求互助</text>
+    </view>
+    
+</view>

@@ -1,0 +1,33 @@
+/* miniprogram/pages/myInfo/myInfo.wxss */
+
+.myInfo-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #FF3300;
+  padding-bottom: 20rpx;
+}
+
+.user-info{
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.myInfo-avatar{
+  height: 120rpx;
+  width: 120rpx;
+}
+
+.myInfo-name{
+  margin-left: 30rpx;
+  line-height: 120rpx;
+  font-size: 40rpx;
+}
+
+.info-other{
+  margin: 60rpx 30rpx auto 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}

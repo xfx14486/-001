@@ -1,0 +1,21 @@
+/* miniprogram/pages/upload/upload.wxss */
+
+
+.upload-container{
+  height: auto;
+  box-sizing: border-box;
+}
+
+.upload-text{
+  height: 60rpx;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 30rpx;
+  text-align: center;
+}
+
+.upload-content{
+  line-height: 60rpx;
+  font-weight: bold; 
+}
+

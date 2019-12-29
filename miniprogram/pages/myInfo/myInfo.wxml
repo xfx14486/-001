@@ -1,0 +1,13 @@
+<view class="myInfo-container">
+  <view class="user-info">
+    <image src="/images/avatar/1.png" class="myInfo-avatar"></image>
+    <text class="myInfo-name">至繁归于至简</text>
+  </view>
+  <view class="info-other">
+    <text>已发布</text>
+    <text>已完成</text>
+    <text>浏览记录</text>
+    <text>关注</text>
+  </view>
+
+</view>

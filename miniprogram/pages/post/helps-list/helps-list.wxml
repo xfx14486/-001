@@ -1,0 +1,23 @@
+<import src="../helps/help.wxml" />
+
+<template name="helps-list">
+  <view class="help-list-container">
+    <view class="inner-container">
+      <view class="movie-head">
+        <text class="slogan">互助平台</text>
+        <view catchtap="onMoreTap" class="more" data-category="{{categoryTitle}}">
+          <text class="more-text">更多</text>
+          <image class="more-img" src="/images/arrow-right.png"></image>
+        </view>
+      </view>
+
+    </view>
+    <view class="help-list-container">
+      <template is="help-template" />
+      <template is="help-template" />
+      <template is="help-template" />
+      <template is="help-template" />
+      <template is="help-template" />
+    </view>
+  </view>
+</template>

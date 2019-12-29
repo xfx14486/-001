@@ -1,0 +1,20 @@
+<template name="help-template">
+  <view class="help-container">
+
+    <text class="help-status">未完成</text>
+    <text class="help-content">中通到16号楼</text>
+    <text class="help-price">3r</text>
+
+    <view class="help-time">
+      <text>12/21 12:00</text>
+    </view>
+
+    <view class="help-user">
+      <image class="avatar-img" src="/images/avatar/4.png"></image>
+      <text>至繁归于至简  </text>
+    </view>
+
+
+  </view>
+
+</template>

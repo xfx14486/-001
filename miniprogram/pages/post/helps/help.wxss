@@ -1,0 +1,35 @@
+.help-container{
+  margin: 0  auto 20rpx;
+}
+
+.avatar-img {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+}
+
+.help-time{
+  float: right;
+  margin-right: 12rpx;
+}
+
+.help-user{
+  float: right;
+  padding-right: 15rpx;
+}
+
+.help-content{
+  font-size: 24rpx;
+  vertical-align: middle;
+}
+
+.help-price{
+  color: red;
+  padding-left: 30rpx;
+}
+
+.help-status{
+  padding-right: 30rpx;
+  color: red;
+  padding-left: 12rpx;
+}

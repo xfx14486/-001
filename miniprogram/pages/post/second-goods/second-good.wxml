@@ -1,0 +1,12 @@
+<template name="secondGood">
+  <view class="good-container">
+    <image class="good-img" src="/images/aaa.png"></image>
+    <text class="good-title">耐克，正品九成新，限量款</text>
+    <view class="good-info">
+      <text class="price">998r</text>
+      <text class="time">一小时前</text>
+    </view>
+
+  </view>
+
+</template>

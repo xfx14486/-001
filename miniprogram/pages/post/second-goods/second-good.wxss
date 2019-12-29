@@ -1,0 +1,39 @@
+
+
+
+.good-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 22rpx;
+}
+
+.good-img {
+  width: 200rpx;
+  height: 270rpx;
+  padding-bottom: 10rpx;
+}
+
+.good-title{
+  width: 100%;
+  font-size: 20rpx;
+}
+
+.price{
+  color: red;
+  font-size: 24rpx;
+  vertical-align: middle;
+}
+
+.time{
+  font-size: 24rpx;
+  /* text-align: right; */
+  color: #666;
+}
+.good-info{
+  width: 100%;
+  height: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10rpx;
+}

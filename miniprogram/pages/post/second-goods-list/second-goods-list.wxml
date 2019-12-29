@@ -1,0 +1,21 @@
+<import src="/pages/post/second-goods/second-good.wxml" />
+
+
+<template name="secondGoodsList">
+    <view class="movie-list-container">
+      <view class="inner-container">
+        <view class="movie-head">
+          <text class="slogan">闲置物品</text>
+          <view catchtap="onMoreTap" class="more" data-category="{{categoryTitle}}">
+            <text class="more-text">更多</text>
+            <image class="more-img" src="/images/arrow-right.png"></image>
+          </view>
+        </view>
+        <view class="movies-container">
+            <template is="secondGood"/>
+            <template is="secondGood"/>
+            <template is="secondGood"/>
+        </view>
+      </view>
+    </view>
+  </template>
